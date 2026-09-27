@@ -33,30 +33,30 @@ NOTE: When you run useradd, the system modifies critical configuration files lik
 # To create group
 **groupadd aws**
 
-To add a user in secondary group
-#usermod -G aws sky
+# To add a user in secondary group
+**usermod -G aws sky**
 
-To add a single user in multiple group
-# usermod -aG sysadmin sky
--a: appened means to include/appened the user in the secondary group
+# To add a single user in multiple group
+**usermod -aG sysadmin sky**
+- -a: appened means to include/appened the user in the secondary group  
 
-# vim /etc/group
+- vim /etc/group
 
-To delete a user/group member from the secondary group.
-# groupmems -g sysadmin -d sky
+# To delete a user/group member from the secondary group.
+**groupmems -g sysadmin -d sky**
 
-To delete a group
-# groupdel aws
-# vim /etc/group
-
-
-To delete user
-# userdel sky
+# To delete a group
+**groupdel aws**  
+**vim /etc/group**
 
 
-To remove a folder of a user from the directory.
-# rm -rf /home/sky
-# ls -ll /home
+# To delete user
+**userdel sky**
+
+
+# To remove a folder of a user from the directory.
+**rm -rf /home/sky**  
+**ls -ll /home**
 
 Whenever a user is created bydefault the user directory is created inside /home directory over username. 
 To delete a user and their home directory in Linux, run the command sudo userdel -r username in your terminal
