@@ -1,21 +1,21 @@
-## Title: User Management
+# Title: User Management
 
 [root@server0Desktop]#
 
-# useradd sky
-# passwd sky
+useradd user1
+passwd user1
+---
 
-NOTE: Whenever any user is created bydefault three folder/directory gets created.
-
+NOTE: Whenever any user is created bydefault three file/folder/directory gets assigned/created to the user.
 Here is the folders
 
-vim /etc/passwd
-vim /etc/group
-vim /etc/shadow
+/etc/passwd
+/etc/group
+/etc/shadow
 
-Inside passwd directory user information is saved
-Group information of user is saved inside group directory
-Password information of user is saved inside shadow directory
+- Inside passwd directory user information is saved
+- Group information of user is saved inside group directory
+- Password information of user is saved inside shadow directory
 
 To create/add secondary group
 # groupadd sysadmin
@@ -23,7 +23,7 @@ To create/add secondary group
 
 To add user in "Group or Secondary group"
 
-# usermod -G sysadmin sky
+usermod -G sysadmin sky
 # usermod -G sysadmin student 
 
 -G : Indicates secondary group
