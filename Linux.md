@@ -4,6 +4,8 @@
 
 The useradd command is a low-level, command-line utility used in Linux and Unix-like operating systems to create and initialize new user accounts.
 
+sudo useradd username
+
 *useradd user1*  
 *passwd user1*
 ---
@@ -16,13 +18,13 @@ NOTE: When you run useradd, the system modifies critical configuration files lik
 - Password information for users is stored in the `/etc/shadow` file.
 
 # To create/add secondary group
-*groupadd sysadmin*
+**groupadd sysadmin**
 
 
 # To add user in "Group or Secondary group"
 
-*usermod -G sysadmin sky*
-* usermod -G sysadmin student* 
+**usermod -G sysadmin sky**
+**usermod -G sysadmin student** 
 
 -G : Indicates secondary group
 sysadmin: group name
