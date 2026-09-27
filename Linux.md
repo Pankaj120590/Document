@@ -1,5 +1,4 @@
-#docs
-User Management
+Title: User Management
 
 [root@server0Desktop]#
 
@@ -60,8 +59,14 @@ To remove a folder of a user from the directory.
 # rm -rf /home/sky
 # ls -ll /home
 
+Whenever a user is created bydefault the user directory is created inside /home directory over username. 
+To delete a user and their home directory in Linux, run the command sudo userdel -r username in your terminal
 
-To delete a user along with his directory from /home directory.
+# sudo userdel -r username
+
+1. `:Replace username with the actual name of the user you want to delete.
+2. The -r option tells the system to remove the user's home directory and mail spool
+
 # userdel -r sagar
 
 
