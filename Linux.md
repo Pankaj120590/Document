@@ -23,7 +23,7 @@ NOTE: When you run useradd, the system modifies critical configuration files lik
 
 # To add user in "Group or Secondary group"
 
-**usermod -G sysadmin sky**
+**usermod -G sysadmin sky**  
 **usermod -G sysadmin student** 
 
 -G : Indicates secondary group
