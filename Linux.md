@@ -12,9 +12,9 @@ When you run useradd, the system modifies critical configuration files like **/e
 /etc/group
 /etc/shadow
 
-- Inside passwd directory user information is saved
-- Group information of user is saved inside group directory
-- Password information of user is saved inside shadow directory
+- User account information is stored in the /etc/passwd file.
+- Group information for users is stored in the `/etc/group` file.
+- Password information for users is stored in the `/etc/shadow` file.
 
 To create/add secondary group
 # groupadd sysadmin
