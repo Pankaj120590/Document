@@ -1,9 +1,9 @@
-##Title: User Management
+## Title: User Management
 
 [root@server0Desktop]#
 
-#useradd sky
-#passwd sky
+# useradd sky
+# passwd sky
 
 NOTE: Whenever any user is created bydefault three folder/directory gets created.
 
