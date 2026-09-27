@@ -2,8 +2,8 @@
 
 [root@server0Desktop]#
 
-- *useradd user1*
-- *passwd user1*
+*useradd user1*  
+*passwd user1*
 ---
 
 NOTE: Whenever any user is created bydefault three file/folder/directory gets assigned/created to the user.
