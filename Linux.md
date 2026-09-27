@@ -58,8 +58,12 @@ NOTE: When you run useradd, the system modifies critical configuration files lik
 **rm -rf /home/sky**  
 **ls -ll /home**
 
-Whenever a user is created bydefault the user directory is created inside /home directory over username. 
-To delete a user and their home directory in Linux, run the command sudo userdel -r username in your terminal
+* Whenever a user is created, a home directory is created by default inside the `/home` directory using the username.
+* To delete a user along with their home directory in Linux, use the following command:
+
+```bash
+sudo userdel -r username
+```
 
 # sudo userdel -r username
 
