@@ -6,8 +6,7 @@
 *passwd user1*
 ---
 
-NOTE: Whenever any user is created bydefault three file/folder/directory gets assigned/created to the user.
-Here is the folders
+## When you run useradd, the system modifies critical configuration files like **/etc/passwd** (user details), **/etc/shadow** (encrypted passwords), and **/etc/group** (group definitions) to register the new identity.
 
 /etc/passwd
 /etc/group
