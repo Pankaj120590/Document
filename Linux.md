@@ -6,7 +6,7 @@
 *passwd user1*
 ---
 
-## When you run useradd, the system modifies critical configuration files like **/etc/passwd** (user details), **/etc/shadow** (encrypted passwords), and **/etc/group** (group definitions) to register the new identity.
+When you run useradd, the system modifies critical configuration files like **/etc/passwd** (user details), **/etc/shadow** (encrypted passwords), and **/etc/group** (group definitions) to register the new identity.
 
 /etc/passwd
 /etc/group
