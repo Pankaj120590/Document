@@ -26,13 +26,12 @@ NOTE: When you run useradd, the system modifies critical configuration files lik
 **usermod -G sysadmin sky**  
 **usermod -G sysadmin student** 
 
--G : Indicates secondary group
-sysadmin: group name
+- -G :           Indicates secondary group  
+- sysadmin:      Group name  
+- sky & student: Username
 
-sky,student : username
-
-To create group
-# groupadd aws
+# To create group
+**groupadd aws**
 
 To add a user in secondary group
 #usermod -G aws sky
