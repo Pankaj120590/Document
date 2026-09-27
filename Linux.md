@@ -2,28 +2,27 @@
 
 [root@server0Desktop]#
 
+The useradd command is a low-level, command-line utility used in Linux and Unix-like operating systems to create and initialize new user accounts.
+
 *useradd user1*  
 *passwd user1*
 ---
 
-When you run useradd, the system modifies critical configuration files like **/etc/passwd** (user details), **/etc/shadow** (encrypted passwords), and **/etc/group** (group definitions) to register the new identity.
+NOTE: When you run useradd, the system modifies critical configuration files like **/etc/passwd** (user details), **/etc/shadow** (encrypted passwords), and **/etc/group** (group definitions) to register the new identity.
 
-/etc/passwd
-/etc/group
-/etc/shadow
 
-- User account information is stored in the /etc/passwd file.
+- User account information is stored in the `/etc/passwd` file.
 - Group information for users is stored in the `/etc/group` file.
 - Password information for users is stored in the `/etc/shadow` file.
 
-To create/add secondary group
-# groupadd sysadmin
+# To create/add secondary group
+*groupadd sysadmin*
 
 
-To add user in "Group or Secondary group"
+# To add user in "Group or Secondary group"
 
-usermod -G sysadmin sky
-# usermod -G sysadmin student 
+*usermod -G sysadmin sky*
+* usermod -G sysadmin student* 
 
 -G : Indicates secondary group
 sysadmin: group name
