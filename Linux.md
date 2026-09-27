@@ -51,7 +51,9 @@ NOTE: When you run useradd, the system modifies critical configuration files lik
 
 
 # To delete user
-**userdel sky**
+```
+userdel sky
+```
 
 
 # To remove a folder of a user from the directory.
